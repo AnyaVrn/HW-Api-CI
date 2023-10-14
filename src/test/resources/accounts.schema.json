@@ -30,7 +30,8 @@
         "default": 0
       },
       "currency": {
-        "type": { "enum": ["RUB", "USD"] }      }
+        "type": "string",
+        "pattern": "^[A-Z_]*$"
     }
   }
 }
